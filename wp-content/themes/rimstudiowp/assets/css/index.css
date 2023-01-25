@@ -1,0 +1,212 @@
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-top: 39px;
+    margin-bottom: auto;
+}
+.logoSocial {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo p {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+.socials {
+    display: flex;
+}
+
+.social {
+    margin-left: 30px;
+}
+
+.changeSocialColor {
+    --color-rect: black;
+    --color-path: white;
+    transition-duration: 1s;
+}
+
+.changeSocialColor:hover {
+    --color-rect: white;
+    --color-path: black;
+    stroke: black;
+}
+
+.about {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    text-align: justify;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.moreAbout {
+    display: none;
+}
+
+.moreAbout-active {
+    display: block;
+}
+
+.aboutButton {
+    display: flex;
+    justify-content: end;
+}
+
+.moreButton {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.moreButton:hover {
+    font-weight: 500;
+}
+
+.changeAboutColor {
+    --color-path: black;
+    --color-circle: white;
+    --stroke-color: black;
+    --stroke-width: 0.5px;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+.changeAboutColor-active {
+    transform: rotate(0deg);
+}
+
+.moreButton:hover .changeAboutColor {
+    font-weight: 500;
+    --color-path: white;
+    --color-circle: black;
+    --stroke-color: white;
+    --stroke-width: 1px;
+}
+
+.contact {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.addressText {
+    margin: 0 0 0 0;
+}
+
+.phoneText {
+    color: black;
+    text-decoration: none;
+}
+
+.mailText {
+    color: black;
+    text-decoration: none;
+}
+
+.phoneText:hover {
+    border-bottom: 1.5px solid black;
+}
+
+.mailText:hover {
+    border-bottom: 1.5px solid black;
+}
+
+.projectsGallery {
+    width: 1200px;
+    margin-top: 50px;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+
+.projectsCard {
+    display: inline-block;
+    position: relative;
+}
+
+.projectsCard:nth-child(1) {
+    width: 417px;
+    height: 488px;
+}
+
+.projectsCard:nth-child(2) {
+    width: 322px;
+    height: 488px;
+}
+
+.projectsCard:nth-child(3) {
+    width: 417px;
+    height: 488px;
+}
+
+.projectsCard:nth-child(4) {
+    width: 583px;
+    height: 671px;
+}
+
+.projectsCard:nth-child(5) {
+    width: 577px;
+    height: 671px;
+}
+
+.projectsCard:nth-child(6) {
+    width: 577px;
+    height: 671px;
+}
+
+.projectsImage {
+    width: inherit;
+    height: inherit;
+}
+
+.projectsText {
+    display: flex;
+    color: white;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    height: inherit;
+    align-items: center;
+    width: inherit;
+    justify-content: center;
+    opacity: 0;
+}
+
+.projectsText:hover {
+    opacity: 1;
+}
+
+.footerText {
+    margin-top: 35px;
+    margin-bottom: 102px;
+    text-align: center;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}

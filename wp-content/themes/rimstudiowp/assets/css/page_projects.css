@@ -1,0 +1,60 @@
+.projectsPage {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 39px;
+    margin-bottom: auto;
+}
+
+.projectsHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.nameProject {
+    display: flex;
+    align-items: center;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.aboutProject {
+    text-align: justify;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projectsDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.projectsImages {
+    height: 650px;
+    width: auto;
+}
+
+.leftArrow {
+    left: -100px;
+    opacity: 1;
+    --color-path1: black;
+}
+
+.rightArrow {
+    right: -100px;
+    opacity: 1;
+    --color-path1: black;
+}
+
+.leftArrowSvg:hover, .rightArrowSvg:hover {
+    --color-path1: white;
+    --color-circle1: black;
+}
+
+
+
